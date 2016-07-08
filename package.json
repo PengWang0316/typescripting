@@ -1,0 +1,19 @@
+{
+  "name": "cmd-tut",
+  "version": "1.0.0",
+  "description": "Demo tutorial created with Workshopper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnerkus/cmd-tut.git"
+  },
+  "author": "Ifeanyi Oraelosi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gnerkus/cmd-tut/issues"
+  },
+  "homepage": "https://github.com/gnerkus/cmd-tut#readme"
+}
