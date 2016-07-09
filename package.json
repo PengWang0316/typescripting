@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/gnerkus/cmd-tut/issues"
   },
-  "homepage": "https://github.com/gnerkus/cmd-tut#readme"
+  "homepage": "https://github.com/gnerkus/cmd-tut#readme",
+  "dependencies": {
+    "after": "0.8.1",
+    "typescript": "1.8.10",
+    "workshopper-adventure": "4.6.2",
+    "workshopper-exercise": "2.7.0",
+    "xtend": "4.0.1"
+  }
 }
