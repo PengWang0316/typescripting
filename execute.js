@@ -110,7 +110,7 @@ function execute (exercise, opts) {
 
     if (mode == 'verify') {
       this.solutionChild  = spawn(this.typescriptExec, this.solutionCommand, { env: this.env });
-      this.solutionStdout = this.getStdout('solution', this.solutionChild)
+      this.solutionStdout = this.getStdout('solution', this.solutionChild);
 
       setImmediate(function () { // give other processors a chance to overwrite stdout
         this.solutionStdout.on('end', ended)
@@ -119,7 +119,7 @@ function execute (exercise, opts) {
 
     process.nextTick(function () {
       callback(null, true);
-    })
+    });
   }
 }
 
