@@ -1,5 +1,5 @@
 {
-  "name": "cmd-tut",
+  "name": "typescripting",
   "version": "1.0.0",
   "description": "Demo tutorial created with Workshopper",
   "main": "index.js",
@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gnerkus/cmd-tut.git"
+    "url": "git+https://github.com/gnerkus/typescripting.git"
   },
   "author": "Ifeanyi Oraelosi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gnerkus/cmd-tut/issues"
+    "url": "https://github.com/gnerkus/typescripting/issues"
   },
   "bin": {
-    "cmdtut": "./bin/cmdtut.js"
+    "typescripting": "./bin/typescripting.js"
   },
-  "homepage": "https://github.com/gnerkus/cmd-tut#readme",
+  "homepage": "https://github.com/gnerkus/typescripting#readme",
   "dependencies": {
     "after": "0.8.1",
     "typescript": "1.8.10",
